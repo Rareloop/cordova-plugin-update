@@ -16,3 +16,8 @@ Run the following from a valid cordova project folder (one that contains a `conf
 
 - `--all`: Shows all available plugin versions, not just ones newer that the currently installed version.
 - `--verbose`: Outputs more information (useful if you run into problems during an update).
+
+## Known issues
+
+- Only handles plugins in NPM, self hosted will just be ignored
+- Can't handle interdependant plugins, e.g. Trying to update `cordova-plugin-file` will fail if the `cordova-plugin-file-transfer` is also installed.
