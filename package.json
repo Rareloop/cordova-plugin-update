@@ -18,5 +18,9 @@
     "semver": "^5.0.1",
     "shelljs": "^0.5.1",
     "xml2js": "*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Rareloop/cordova-plugin-update/issues"
+  },
+  "homepage": "https://github.com/Rareloop/cordova-plugin-update"
 }
