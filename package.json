@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-update",
+  "version": "0.1.0",
+  "description": "A script to make updating Cordova plugins easier to manage",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rareloop (http://rareloop.com)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "cordova-plugin-update": "index.js"
+  },
+  "dependencies": {
+    "cli-color": "^1.0.0",
+    "cli-interact": "^0.1.9",
+    "minimist": "^1.1.2",
+    "semver": "^5.0.1",
+    "shelljs": "^0.5.1",
+    "xml2js": "*"
+  }
+}
