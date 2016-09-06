@@ -112,7 +112,7 @@ if(json.widget && json.widget.plugin) {
                             console.log('\nNewer versions of `' + name + '` are available (currently ' + pluginPackage.version + ')\n');
                         }
                         else {
-                            console.log('\nA newer versions of `' + name + '` is available (currently ' + pluginPackage.version + ')\n');
+                            console.log('\nA newer version of `' + name + '` is available (currently ' + pluginPackage.version + ')\n');
                         }
                         
                     }
